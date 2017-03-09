@@ -27,6 +27,7 @@
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toggle-menu" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
 	                  <span class="icon-bar"></span>
 	                  <span class="icon-bar"></span>
 	                  <span class="icon-bar"></span>
@@ -36,7 +37,8 @@
                     <div class="clear"> </div>
                 </a>
 			</div>
-			 <div class=" collapse navbar-collapse openSans" id="toggle-menu">
+
+			 <div class=" collapse navbar-collapse" id="toggle-menu">
 			 
 				<ul class="nav navbar-nav navbar-right ">
 					<li><a href="#">HOME</a></li>
@@ -44,22 +46,24 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                       SERVICE <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
 
+                      <ul class="dropdown-menu">
 	                      <li class="dropdown-submenu">
 	                     	 <a href="#">Web Development</a>
-	                     	 	<ul class="dropdown-menu">
-	                     	 		<li><a href="#">Website Designing</li>
-	                     	 		<li><a href="#">Web Application Development</li>
-	                     	 		<li><a href="#">Web Services & APIs Development</a></li>
+	                     	 	<ul class="dropdown-menu" >
+	                     	 		<li><a href="#">Website Designing</a></li>
+	                     	 		<li><a href="#">Web Application Development</a></li>
+	                     	 		<li><a href="#">Web Services & APIs Development</a>
+	                     	 		</li>
 	                     	 	</ul>
 	                      </li>
+	                    
 
 	                      <li class="dropdown-submenu">
 	                     	 <a href="#">Mobile Application Development</a>
 	                     	 	<ul class="dropdown-menu">
-	                     	 		<li><a href="#">Hybrid App Development</li>
-	                     	 		<li><a href="#">Android App Development</li>
+	                     	 		<li><a href="#">Hybrid App Development</a></li>
+	                     	 		<li><a href="#">Android App Development</a></li>
 	                     	 		<li><a href="#">IOS App Development</a></li>
 	                     	 	</ul>
 	                      </li>
@@ -74,7 +78,7 @@
 	                      </li>
 
                       </ul>
-					</li> <!-- Services end here -->
+					</li> <!-- Services end here
 								
 
 		<!-- Solution Menu start here -->
@@ -86,8 +90,8 @@
 	                      <li class="dropdown-submenu">
 	                     	 <a href="#">E-Commerce</a>
 	                     	 	<ul class="dropdown-menu">
-	                     	 		<li><a href="#">Magento</li>
-	                     	 		<li><a href="#">WOO Commerce</li>
+	                     	 		<li><a href="#">Magento</a></li>
+	                     	 		<li><a href="#">WOO Commerce</a></li>
 	                     	 		<li><a href="#">Custom Made</a></li>
 	                     	 	</ul>
 	                      </li>
@@ -95,7 +99,7 @@
 	                      <li class="dropdown-submenu">
 	                     	 <a href="#">Content Management System</a>
 	                     	 	<ul class="dropdown-menu">
-	                     	 		<li><a href="#">Wordpress</li>
+	                     	 		<li><a href="#">Wordpress</a></li>
 	                     	 		<li><a href="#">Drupal</a></li>
 	                     	 	</ul>
 	                      </li>
@@ -106,14 +110,59 @@
 	                      		<li><a href="#">Shared Hosting</a></li>
 	                      		<li><a href="#">Dedicated Hosting</a></li>
 	                      	</ul>	                      
-	                      </li> <!-- solution end here -->                      
-                      </ul>
+	                      </li>  <!-- solution end here  -->
+
+	                      </ul>                     
+                      
                     <li><a href="#"> PORTFOLIO </a></li>
                   	<li><a href="#"> CONTACT US </a></li>
 					</li>
 				</ul>
 			</div>
 		</div>
+	
+
+	<div id="myCarousel" class="carousel slide">
+
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="images/slider1.jpg" alt="slider1" class="img-responsive">
+				<div class="carousel-caption">
+					<h3>slider1</h3>
+					<p>slider image 1</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="images/slider2.jpg" alt="slider2" class="img-responsive">
+				<div class="carousel-caption">
+					<h3>slider2</h3>
+					<p>slider image 2</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="images/slider3.jpg" alt="slider3" class="img-responsive">
+				<div class="carousel-caption">
+					<h3>slider3</h3>
+					<p>slider image 3</p>
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+			<span class="icon-prev"></span>
+		</a>
+
+		<a class="carousel-control right" href="#myCarousel" data-slide="next">
+			<span class="icon-next"></span>
+		</a>
+	</div>
 	</nav>
 	
 	<!-- Footer Start here -->
@@ -132,10 +181,10 @@
 			<div class="col-md-3">
 				<h3>PRODUCTS</h3>
 				<ul>
-					<li> <a href="#"> Style Ui  </a> </li>
-             		<li> <a href="#"> Redon  </a> </li>
-             		<li> <a href="#"> Sonic </a> </li>
-             		<li> <a href="#"> Operating System </a> </li>
+					<li> <a href="#"> Style Ui  </a></li>
+             		<li> <a href="#"> Redon  </a></li>
+             		<li> <a href="#"> Sonic </a></li>
+             		<li> <a href="#"> Operating System </a></li>
 				</ul>
 			</div>
 			<div class="col-md-3">
