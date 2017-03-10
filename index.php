@@ -1,126 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Khand|Lato|Open+Sans" rel="stylesheet">
 
-	<title>Diodecode</title>
+	<?php include "inc/header.php" ?>
 
-	<script
-	  src="https://code.jquery.com/jquery-3.1.1.min.js"
-	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-	  crossorigin="anonymous">	
-	</script>
-
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="build/style.css">
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-</head>
-<body>
-	<nav class="navbar navbar-default">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toggle-menu" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-	                  <span class="icon-bar"></span>
-	                  <span class="icon-bar"></span>
-	                  <span class="icon-bar"></span>
-                </button>
-                 <a href="#"> 
-                    <img src="images/logo.png" width="220"/>
-                    <div class="clear"> </div>
-                </a>
-			</div>
-
-			 <div class=" collapse navbar-collapse" id="toggle-menu">
-			 
-				<ul class="nav navbar-nav navbar-right ">
-					<li><a href="#">HOME</a></li>
-
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                      SERVICE <span class="caret"></span></a>
-
-                      <ul class="dropdown-menu">
-	                      <li class="dropdown-submenu">
-	                     	 <a href="#">Web Development</a>
-	                     	 	<ul class="dropdown-menu" >
-	                     	 		<li><a href="#">Website Designing</a></li>
-	                     	 		<li><a href="#">Web Application Development</a></li>
-	                     	 		<li><a href="#">Web Services & APIs Development</a>
-	                     	 		</li>
-	                     	 	</ul>
-	                      </li>
-	                    
-
-	                      <li class="dropdown-submenu">
-	                     	 <a href="#">Mobile Application Development</a>
-	                     	 	<ul class="dropdown-menu">
-	                     	 		<li><a href="#">Hybrid App Development</a></li>
-	                     	 		<li><a href="#">Android App Development</a></li>
-	                     	 		<li><a href="#">IOS App Development</a></li>
-	                     	 	</ul>
-	                      </li>
-
-	                      <li class="dropdown-submenu">
-	                     	 <a href="#">Proffesional Services</a>
-	                      	<ul class="dropdown-menu">
-	                      		<li><a href="#">Managed IT Services</a></li>
-	                      		<li><a href="#">Cloud Server Support</a></li>
-	                      		<li><a href="#">On Demand IT Services</a></li>
-	                      	</ul>	                      
-	                      </li>
-
-                      </ul>
-					</li> <!-- Services end here
-								
-
-		<!-- Solution Menu start here -->
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                      SOLUTION<span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-
-	                      <li class="dropdown-submenu">
-	                     	 <a href="#">E-Commerce</a>
-	                     	 	<ul class="dropdown-menu">
-	                     	 		<li><a href="#">Magento</a></li>
-	                     	 		<li><a href="#">WOO Commerce</a></li>
-	                     	 		<li><a href="#">Custom Made</a></li>
-	                     	 	</ul>
-	                      </li>
-
-	                      <li class="dropdown-submenu">
-	                     	 <a href="#">Content Management System</a>
-	                     	 	<ul class="dropdown-menu">
-	                     	 		<li><a href="#">Wordpress</a></li>
-	                     	 		<li><a href="#">Drupal</a></li>
-	                     	 	</ul>
-	                      </li>
-
-	                      <li class="dropdown-submenu">
-	                     	 <a href="#">Hosting</a>
-	                      	<ul class="dropdown-menu">
-	                      		<li><a href="#">Shared Hosting</a></li>
-	                      		<li><a href="#">Dedicated Hosting</a></li>
-	                      	</ul>	                      
-	                      </li>  <!-- solution end here  -->
-
-	                      </ul>                     
-                      
-                    <li><a href="#"> PORTFOLIO </a></li>
-                  	<li><a href="#"> CONTACT US </a></li>
-					</li>
-				</ul>
-			</div>
-		</div>
-	
+	<!-- image slider  code below-->
 
 	<div id="myCarousel" class="carousel slide">
 
@@ -135,7 +16,7 @@
 				<img src="images/slider1.jpg" alt="slider1" class="img-responsive">
 				<div class="carousel-caption">
 					<h3>slider1</h3>
-					<p>slider image 1</p>
+					<p class="slider-text">slider image 1</p>
 				</div>
 			</div>
 
@@ -143,7 +24,7 @@
 				<img src="images/slider2.jpg" alt="slider2" class="img-responsive">
 				<div class="carousel-caption">
 					<h3>slider2</h3>
-					<p>slider image 2</p>
+					<p class="slider-text">slider image 2</p>
 				</div>
 			</div>
 
@@ -151,7 +32,7 @@
 				<img src="images/slider3.jpg" alt="slider3" class="img-responsive">
 				<div class="carousel-caption">
 					<h3>slider3</h3>
-					<p>slider image 3</p>
+					<p class="slider-text">slider image 3</p>
 				</div>
 			</div>
 		</div>
@@ -163,54 +44,203 @@
 			<span class="icon-next"></span>
 		</a>
 	</div>
-	</nav>
-	
-	<!-- Footer Start here -->
-<footer>
-	<div class="container">
+</nav>
+
+	<!-- remaining Home page start from here -->
+	<section class="container">
 		<div class="row">
-			<div class="col-md-3">
-				<h3>ABOUT DIODECODE</h3>
-				<ul>
-					<li> <a href="#">About Us</a> </li>
-					<li> <a href="#">Contact Us</a> </li>
-					<li> <a href="#">Portfolio</a> </li>
-				</ul>
+			<div class="col-md-12 ">
+                  <h1 class="heading">  WHAT WE DO </h1>
+          	</div>
+		</div>
+	<br>
+	<br>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="icon">
+					<img src="images/web_dev.png" width="125px" height="125px">
+				</div>
+				<br>
+				<h3 class="title"> Web  Development
+                	<div class="underline"></div>
+                </h3>
+                    <br/>
+                   <p>
+                  	 We are obsessed with beautiful digital experiences, putting the user at the centre of everything we make. Creativity starts with understanding the context of the design challenge and only then one can deliver an exceptional graphical experience.
+                   </p>
 			</div>
 		
-			<div class="col-md-3">
-				<h3>PRODUCTS</h3>
-				<ul>
-					<li> <a href="#"> Style Ui  </a></li>
-             		<li> <a href="#"> Redon  </a></li>
-             		<li> <a href="#"> Sonic </a></li>
-             		<li> <a href="#"> Operating System </a></li>
-				</ul>
+			<div class="col-md-4">
+				<div class="icon">
+					<img src="images/api.png" width="125px" height="125px">
+				</div>
+				<br>
+				<h3 class="title"> API and Web Service Development 
+                       <div class="underline"></div>
+                </h3>
+                <br/>
+                <p>
+                  	Application Programming Interface –an important tool for the reliable interaction of software components, databases and computer hardware, has an important role to play in your business success. API also lays down the protocols required for a wide range of web solutions, designs, plug-ins and modules.
+                </p>
 			</div>
-			<div class="col-md-3">
-				<h3>SERVICES</h3>
-				<ul>
-					<li> <a href="#"> Web Development  </a> </li>
-             		<li> <a href="#"> Mobile App Development </a> </li>
-             		<li> <a href="#"> Professional Services </a> </li>
-				</ul>
-			</div>
-			<div class="col-md-3">
-				<h3>SOLUTIONS</h3>
-				<ul>
-					<li> <a href="#"> Cloud Hosting  </a> </li>
-             		<li> <a href="#"> Content Management System </a> </li>
-             		<li> <a href="#"> E-Commerce </a> </li>
-				</ul>
+		
+			<div class="col-md-4">
+				<div class="icon">
+					<img src="images/mobile_dev.png" width="125px" height="125px">
+				</div>
+				<br>
+				<h3 class="title">  Mobile App Development
+                   <div class="underline"></div>
+                </h3>
+                    <br/>
+                <p>
+                 	Do you need a custom, native iOS, Android or Windows app?
+                 	Prefer a cross-platform responsive web app?
+                 	Require a secure backend? If you want it, we can build it.
+                    Where others struggle, we thrive
+                 </p>
 			</div>
 		</div>
-	</div>
-</footer>
-<footer class="footer1">
-	 	<div class="container">
-	 		Copyrights © 2016 All Rights Reserved by <a href="#"><b>DiodeCode</b>.</a>
-	 	</div>
-</footer>
 
-</body>
-</html>
+		<br> <br> <br>
+
+		<div class="row">
+			<div class="col-md-4">
+				<div class="icon">
+					<img src="images/ecommerce.png" width="125px" height="125px">
+				</div>
+				<br>
+				<h3 class="title">E - Commerce Solution
+                	<div class="underline"></div>
+                </h3>
+                    <br/>
+                   <p>
+                  	 We are obsessed with beautiful digital experiences, putting the user at the centre of everything we make. Creativity starts with understanding the context of the design challenge and only then one can deliver an exceptional graphical experience.
+                   </p>
+			</div>
+		
+			<div class="col-md-4">
+				<div class="icon">
+					<img src="images/cms.png" width="125px" height="125px">
+				</div>
+				<br>
+				<h3 class="title">CMS Solution 
+                       <div class="underline"></div>
+                </h3>
+                <br/>
+                <p>
+                  	 You can now focus on creating an exceptional customer experience without worrying about managing high-performance infrastructure
+                </p>
+			</div>
+		
+			<div class="col-md-4">
+				<div class="icon"> 
+					<img src="images/cloud.png" width="125px" height="125px">
+				</div>
+				<br>
+				<h3 class="title"> Managed and On Demand IT Services
+                   <div class="underline"></div>
+                </h3>
+                    <br/>
+                <p>
+                 	 We Will help you match right cloud server and Databases to the right use case.
+                 </p>
+			</div>
+		</div>
+	</section>
+	<br> <br>
+
+	<section class="dark">
+          <div class="container">
+               <div class="row">
+                  <div class="col-md-12 ">
+                      <h1 class="ecom">  E - COMMERCE SOLUTION  </h1>
+                  </div>
+              </div>
+              <br/> <br/>
+              <div class="row">
+                  <img src="images/sl1.png" class="img-responsive" />
+              </div>
+          </div>
+      </section>
+
+    <section >  
+          <div class="container">
+               <div class="row">
+                  <div class="col-md-12 ">
+                       <br/> <br/>  
+                      <h1 class="heading">  Mobile Application  Solution   </h1>
+                      <br/> <br/>
+                  </div>
+              </div>
+              
+              <div class="row">
+                  <img src="images/sl2.png" class="img-responsive" />
+              </div>
+          </div>
+    </section>
+    <br> <br>
+
+    <section class="dark" style="background: url(http://ichef.bbci.co.uk/images/ic/1600xn/p03gywjs.jpg);">
+            
+            
+          <div class="container">
+               <div class="row">
+                  <div class="col-md-12 ">
+                       <br/> <br/>  
+                      <h1 class="why-us">  Why Us  </h1>
+                      <h2 class="heading2" style="color: white; "> Offering You Expertise</h2>
+                      <br/> <br/>
+                  </div>
+              </div>
+              
+              <div class="row " style="color: white; background: rgba(0, 0, 0, 0.2);  padding: 20px; ">
+                  <h4 class="openSans" style="text-shadow: 1px 1px 1px rgba(0, 0, 0, 1) "> We collaborate with our customers from project conceptualization and throughout the life cycle, covering technical and administrative aspects. Our team of young entrepreneurs and programmers know how to make mind blowing websites that catch the attention of target market. Contact us to know about the superheroes of today. </h4>
+              </div>
+                             
+          </div>
+
+            <br/>   
+      </section>
+
+      <section class="bg_ef">            
+        <div class="container">
+               <div class="row">
+                  <div class="col-md-12 ">
+                      <br/> <br/>  
+                      <h1 class="heading">  What Client's Think About us </h1>                      
+                  </div>
+              </div>
+
+              <br/> <br/>
+
+              <div class="row">
+                  <div class="col-md-6">
+                  	<div class="testimonial">
+                  		<h4 class="khand"> Everything I had asked for and more in my web site, and much help from Customer Service. Thank you very much. </h4>
+	                      <p class="khand">
+	                        - DEEPAK THRIPATHI<br/>
+	                        <small>  Donias Megalink Ltd</small>
+	                      </p>	
+                  	</div>
+                      
+                  </div>
+
+                  <div class="col-md-6">
+	               	 <div class="testimonial">
+	                      <h4 class="khand"> Just One Word "Reliable" </h4>
+	                      <br/>
+	                      <p class="khand">
+	                        - TAMIL ANAND<br/>
+	                        <small>  Revamp Tech Inc.</small>
+	                      </p>
+                      </div>
+                  </div>
+
+              </div>
+
+          </div>	
+          		<br> <br>
+      </section>
+      
+	<?php include "inc/footer.php" ?>

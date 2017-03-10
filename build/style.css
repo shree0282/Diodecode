@@ -72,3 +72,74 @@ footer {
 
 .clear {
   clear: both; }
+
+.slider-text {
+  color: white;
+  text-align: center; }
+
+.heading {
+  color: #2a2a2a;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Khand', sans-serif;
+  font-size: 40px; }
+
+.navbar-collapse a {
+  font-family: 'Open Sans', sans-serif; }
+
+.icon img {
+  margin: auto;
+  display: block; }
+
+.title {
+  text-align: center;
+  font-family: 'Khand', sans-serif;
+  font-size: 24px; }
+  .title .underline {
+    border-bottom: 3px solid #444;
+    width: 15%;
+    margin: 5px auto; }
+
+p {
+  color: #333;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif; }
+
+.dark {
+  background: #2c2c2c;
+  display: block;
+  padding-bottom: 40px; }
+  .dark .ecom {
+    color: white;
+    text-align: center;
+    font-family: 'Khand', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px; }
+
+.why-us {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Khand', sans-serif;
+  font-size: 40px; }
+
+.heading2 {
+  text-align: center;
+  font-family: 'Khand', sans-serif;
+  font-size: 30px; }
+
+.bg_ef {
+  background: #EFEFEF; }
+
+.testimonial {
+  background: white;
+  padding: 10px;
+  margin: 10px 0px; }
+
+.khand {
+  font-family: 'Khand', sans-serif; }
+
+.openSans {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px; }
