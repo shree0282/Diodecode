@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="build/font-awesome.min.css">
 
 </head>
 <body>
@@ -41,7 +42,7 @@
 			 <div class=" collapse navbar-collapse" id="toggle-menu">
 			 
 				<ul class="nav navbar-nav navbar-right ">
-					<li><a href="#">HOME</a></li>
+					<li><a href="index.php">HOME</a></li>
 
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -49,7 +50,7 @@
 
                       <ul class="dropdown-menu">
 	                      <li class="dropdown-submenu">
-	                     	 <a href="#">Web Development</a>
+	                     	 <a href="web_development.php">Web Development</a>
 	                     	 	<ul class="dropdown-menu" >
 	                     	 		<li><a href="#">Website Designing</a></li>
 	                     	 		<li><a href="#">Web Application Development</a></li>
@@ -60,7 +61,7 @@
 	                    
 
 	                      <li class="dropdown-submenu">
-	                     	 <a href="#">Mobile Application Development</a>
+	                     	 <a href="mobile_development.php">Mobile Application Development</a>
 	                     	 	<ul class="dropdown-menu">
 	                     	 		<li><a href="#">Hybrid App Development</a></li>
 	                     	 		<li><a href="#">Android App Development</a></li>
@@ -69,7 +70,7 @@
 	                      </li>
 
 	                      <li class="dropdown-submenu">
-	                     	 <a href="#">Proffesional Services</a>
+	                     	 <a href="professional_services.php">Proffesional Services</a>
 	                      	<ul class="dropdown-menu">
 	                      		<li><a href="#">Managed IT Services</a></li>
 	                      		<li><a href="#">Cloud Server Support</a></li>
@@ -88,7 +89,7 @@
                       <ul class="dropdown-menu">
 
 	                      <li class="dropdown-submenu">
-	                     	 <a href="#">E-Commerce</a>
+	                     	 <a href="e_commerce.php">E-Commerce</a>
 	                     	 	<ul class="dropdown-menu">
 	                     	 		<li><a href="#">Magento</a></li>
 	                     	 		<li><a href="#">WOO Commerce</a></li>
@@ -97,7 +98,7 @@
 	                      </li>
 
 	                      <li class="dropdown-submenu">
-	                     	 <a href="#">Content Management System</a>
+	                     	 <a href="content_mgmt_system.php">Content Management System</a>
 	                     	 	<ul class="dropdown-menu">
 	                     	 		<li><a href="#">Wordpress</a></li>
 	                     	 		<li><a href="#">Drupal</a></li>
@@ -105,20 +106,21 @@
 	                      </li>
 
 	                      <li class="dropdown-submenu">
-	                     	 <a href="#">Hosting</a>
+	                     	 <a href="hosting.php">Hosting</a>
 	                      	<ul class="dropdown-menu">
 	                      		<li><a href="#">Shared Hosting</a></li>
-	                      		<li><a href="#">Dedicated Hosting</a></li>
+	                      		<li><a href="#">Cloud Hosting</a></li>
 	                      	</ul>	                      
 	                      </li>  <!-- solution end here  -->
 
 	                      </ul>                     
                       
-                    <li><a href="#"> PORTFOLIO </a></li>
-                  	<li><a href="#"> CONTACT US </a></li>
+                    <li><a href="portfolio.php"> PORTFOLIO </a></li>
+                  	<li><a href="contact.php"> CONTACT US </a></li>
 					</li>
 				</ul>
 			</div>
 		</div>
+		</nav>
 		
 	<!-- nav tag close in index.php after carousel -->

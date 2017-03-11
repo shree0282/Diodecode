@@ -3,7 +3,7 @@
 
 	<!-- image slider  code below-->
 
-	<div id="myCarousel" class="carousel slide">
+	<div id="myCarousel" class="carousel slide" style="margin-top: -20px">
 
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -44,7 +44,8 @@
 			<span class="icon-next"></span>
 		</a>
 	</div>
-</nav>
+	<br>
+
 
 	<!-- remaining Home page start from here -->
 	<section class="container">
@@ -61,7 +62,7 @@
 					<img src="images/web_dev.png" width="125px" height="125px">
 				</div>
 				<br>
-				<h3 class="title"> Web  Development
+				<h3 class="title"> Web Development
                 	<div class="underline"></div>
                 </h3>
                     <br/>
@@ -201,9 +202,9 @@
           </div>
 
             <br/>   
-      </section>
+    </section>
 
-      <section class="bg_ef">            
+    <section class="bg_ef">            
         <div class="container">
                <div class="row">
                   <div class="col-md-12 ">
@@ -241,6 +242,8 @@
 
           </div>	
           		<br> <br>
-      </section>
-      
+    </section>
+      <!-- home page end here -->
+
+
 	<?php include "inc/footer.php" ?>
