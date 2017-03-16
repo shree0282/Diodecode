@@ -32,17 +32,34 @@ footer {
   .footer1 a:focus {
     color: #3d82f4; }
 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a {
+  background: #4C4C4C !important;
+  margin-bottom: -1px; }
+
 .navbar-nav li .dropdown-menu {
   padding: 0; }
   .navbar-nav li .dropdown-menu li a {
-    padding: 7px 15px; }
+    padding: 7px 15px;
+    background: #4C4C4C;
+    color: white !important;
+    font-size: .95em; }
+
+.navbar-nav li .dropdown-menu {
+  margin: -1px; }
+
+.navbar-nav > li > a {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important; }
+
+.navbar-default {
+  border: none !important; }
 
 .nav li a {
   color: #282b30 !important; }
 
 .nav li a:hover {
   color: white !important;
-  background: #4C4C4C !important; }
+  background: #777 !important; }
 
 .nav li a:focus {
   background: #777777 !important;
@@ -143,12 +160,6 @@ p {
 .openSans {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px; }
-
-.features {
-  background: red;
-  display: block;
-  text-align: center;
-  padding: 80px; }
 
 .contact-page {
   font-family: 'Open Sans', sans-serif;

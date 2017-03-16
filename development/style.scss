@@ -48,6 +48,15 @@ footer{
 	}
 }
 // footer styling end here
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+background:#4C4C4C !important;
+margin-bottom:-1px;
+
+}
+
+
 .navbar-nav{
 	li{
 		.dropdown-menu { 
@@ -55,11 +64,27 @@ footer{
 			li {
 				a{
             		padding: 7px 15px;
+            		background:#4C4C4C;
+            		color: white !important;
+            		font-size: .95em;
         		}
        		}
        }
    }
 }
+
+.navbar-nav li .dropdown-menu {  
+	margin: -1px;
+}
+
+.navbar-nav>li>a {
+    padding-top:20px !important;
+    padding-bottom: 20px !important;
+}
+.navbar-default {
+    border: none !important;
+    }
+
 
 .nav{
 	li{
@@ -68,7 +93,7 @@ footer{
 		}
 		a:hover{
 			color: white !important;
-			background: #4C4C4C !important;
+			background: #777 !important;
 		}
 		a:focus{
 			background:#777777 !important;
@@ -128,8 +153,8 @@ footer{
 	color: #2a2a2a;
     font-weight: bold;
     text-align: center;
-   font-family: 'Khand', sans-serif;
-   font-size: 40px;
+   	font-family: 'Khand', sans-serif;
+   	font-size: 40px;
 }
 
 .navbar-collapse{
@@ -206,12 +231,12 @@ p{
 // home page styling end here
 
 // contact us styling start from here
-.features{
-	background:red;
-	display:block;
-	text-align:center;
-	padding:80px;
-}
+// .features{
+// 	background:red;
+// 	display:block;
+// 	text-align:center;
+// 	padding:80px;
+// }
 .contact-page{
 	font-family: 'Open Sans', sans-serif;
 	color:#333;
