@@ -10,7 +10,7 @@ include "inc/header.php";
    </div>
 </div>
 
-<section class="">
+<section class=" ">
 	<div class="container">
 		<br><br>
 
