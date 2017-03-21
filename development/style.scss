@@ -210,6 +210,16 @@ p{
 	font-family: 'Khand', sans-serif;
 	font-size:30px;
 }
+
+.heading3{
+	font-size: 30px;
+		font-weight: 700;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+		color: #333;
+		letter-spacing: 1px;
+}
+
 .bg_ef{
 	background:#EFEFEF;
 }
@@ -230,13 +240,7 @@ p{
 }
 // home page styling end here
 
-// contact us styling start from here
-// .features{
-// 	background:red;
-// 	display:block;
-// 	text-align:center;
-// 	padding:80px;
-// }
+
 .contact-page{
 	font-family: 'Open Sans', sans-serif;
 	color:#333;
@@ -287,4 +291,55 @@ p{
 .center{
 	display:block;
 	margin:auto;
+}
+
+.portfolio-item{
+	margin-bottom:30px;
+	border:2px solid #f1f1f1;
+	
+}
+
+.info{
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 0px;
+	text-align:center;
+}
+
+.form-control{
+	margin-bottom:15px;
+}
+
+.redon-para{
+	color:#777;
+	font-weight:300;
+	font-size:24px;
+	text-align:center;
+}
+
+.underline{
+	border-bottom:3px solid #555;
+	width:5%;
+	margin:40px auto;
+}
+
+.button-btn{
+	width:auto !important;
+	background:#53C6D0;
+	padding:10px 15px;
+	font-size:15px;
+	color:white;
+	border:none;
+	border-radius:3px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.border{
+	border:1px solid rgba(0, 0, 0, 0.1);
+}
+.sonic-para{
+	text-align:center;
+	margin-top:20px;
 }

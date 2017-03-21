@@ -20,20 +20,40 @@ include "inc/header.php";
 				<h3 class="contact-page"> info@diodecode.com  </h3>
 				<br>
 				<p>
-					20th Main, Gangothri Circle,  <br/>
-					BTM 1st Stage,  <br/>					
-					Bangalore – 560029 <br/>
-					080 - 42115424  <br/>
+					No: 1668/A, 3<sup>rd</sup> Floor,  <br/>
+					G.V. Complex, 14<sup>th</sup> Main,  <br/>					
+					BDA Complex Road,<br/>
+					7<sup>th</sup> Sector, HSR Layout,<br>
+					Bangalore - 560102.<br>
 					(+91) 7348821817 <br/>
 				</p>				
 			</div>
 			<div class="col-md-6">
 
+				<form>
+                    <div class="form-group">
+
+                        <label for="InputName">Full Name:</label>
+                        <input class="form-control" type="text" id="InputName" placeholder="Your Full Name" required="true">
+
+                        <label for="InputEmail">Email Address:</label>
+                        <input class="form-control" type="Email" id="InputEmail" placeholder=" Your Email Address">
+
+                        <label for="InputPhone">Phone No.</label>
+                        <input class="form-control" type="Phone" id="InputPhone" placeholder="Phone Number">
+
+                        <label for="Message">Your Message:</label>
+                        <textarea class="form-control" placeholder="Your Message Here"></textarea>
+                    </div>
+                </form>
+                <button class="btn btn-primary" style="margin-bottom: 10px; margin-left: 15px;">Submit</button>			
 			</div>
 		</div>		
 		<br/>
 	</div>	
 </section>
+
+
 
 
 

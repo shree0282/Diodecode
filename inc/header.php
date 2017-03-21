@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Khand|Lato|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Khand|Lato|Open+Sans:400,700" rel="stylesheet">
 
 	<title>Diodecode</title>
 
@@ -45,16 +45,31 @@
 					<li><a href="index.php">HOME</a></li>
 
 					<li class="dropdown">
+						<a href="products.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      	PRODUCTS <span class="caret"></span></a>
+
+		                <ul class="dropdown-menu">
+		                	<li class="dropdown-submenu">
+		                		<a href="http://www.redonapp.com">Redon App</a>
+		                		<a href="redon.php">Redon</a>
+		                		<a href="sonic.php">Sonic</a>
+		                		<a href="operating_system.php">Operating System</a>
+		                	</li>
+		                </ul>
+		            </li>
+
+					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                      SERVICE <span class="caret"></span></a>
+                      SERVICES <span class="caret"></span></a>
 
                       <ul class="dropdown-menu">
 	                      <li class="dropdown-submenu">
 	                     	 <a href="web_development.php">Web Development</a>
 	                     	 	<ul class="dropdown-menu" >
-	                     	 		<li><a href="#">Website Designing</a></li>
-	                     	 		<li><a href="#">Web Application Development</a></li>
-	                     	 		<li><a href="#">Web Services & APIs Development</a>
+	                     	 		<li><a href="web_development.php#nav_web_designing">Website Designing</a></li>
+
+	                     	 		<li><a href="web_development.php#nav_web_application">Web Application Development</a></li>
+	                     	 		<li><a href="web_development.php#nav_api_services">Web Services & APIs Development</a>
 	                     	 		</li>
 	                     	 	</ul>
 	                      </li>
@@ -63,18 +78,18 @@
 	                      <li class="dropdown-submenu">
 	                     	 <a href="mobile_development.php">Mobile Application Development</a>
 	                     	 	<ul class="dropdown-menu">
-	                     	 		<li><a href="#">Hybrid App Development</a></li>
-	                     	 		<li><a href="#">Android App Development</a></li>
-	                     	 		<li><a href="#">IOS App Development</a></li>
+	                     	 		<li><a href="mobile_development.php#Nav_hybrid_app_dev">Hybrid App Development</a></li>
+	                     	 		<li><a href="mobile_development.php#nav_android_app_dev">Android App Development</a></li>
+	                     	 		<li><a href="mobile_development.php#Nav_ios_app_dev">IOS App Development</a></li>
 	                     	 	</ul>
 	                      </li>
 
 	                      <li class="dropdown-submenu">
-	                     	 <a href="professional_services.php">Proffesional Services</a>
+	                     	 <a href="professional_services.php">Profesional Services</a>
 	                      	<ul class="dropdown-menu">
-	                      		<li><a href="#">Managed IT Services</a></li>
-	                      		<li><a href="#">Cloud Server Support</a></li>
-	                      		<li><a href="#">On Demand IT Services</a></li>
+	                      		<li><a href="professional_services.php#nav_managed_it_service">Managed IT Services</a></li>
+	                      		<li><a href="professional_services.php#nav_cloud_server">Cloud Server Support</a></li>
+	                      		<li><a href="professional_services.php#nav_ondemand_service">On Demand IT Services</a></li>
 	                      	</ul>	                      
 	                      </li>
 
@@ -91,25 +106,25 @@
 	                      <li class="dropdown-submenu">
 	                     	 <a href="e_commerce.php">E-Commerce</a>
 	                     	 	<ul class="dropdown-menu">
-	                     	 		<li><a href="#">Magento</a></li>
-	                     	 		<li><a href="#">WOO Commerce</a></li>
-	                     	 		<li><a href="#">Custom Made</a></li>
+	                     	 		<li><a href="e_commerce.php#nav_magento">Magento</a></li>
+	                     	 		<li><a href="e_commerce.php#nav_woocommerce">WOO Commerce</a></li>
+	                     	 		<li><a href="e_commerce.php#nav_custom-made">Custom Made</a></li>
 	                     	 	</ul>
 	                      </li>
 
 	                      <li class="dropdown-submenu">
 	                     	 <a href="content_mgmt_system.php">Content Management System</a>
 	                     	 	<ul class="dropdown-menu">
-	                     	 		<li><a href="#">Wordpress</a></li>
-	                     	 		<li><a href="#">Drupal</a></li>
+	                     	 		<li><a href="content_mgmt_system.php#nav_wordpress">Wordpress</a></li>
+	                     	 		<li><a href="content_mgmt_system.php#nav_drupal">Drupal</a></li>
 	                     	 	</ul>
 	                      </li>
 
 	                      <li class="dropdown-submenu">
 	                     	 <a href="hosting.php">Hosting</a>
 	                      	<ul class="dropdown-menu">
-	                      		<li><a href="#">Shared Hosting</a></li>
-	                      		<li><a href="#">Cloud Hosting</a></li>
+	                      		<li><a href="hosting.php#nav_shared-hosting">Shared Hosting</a></li>
+	                      		<li><a href="hosting.php#nav_cloud-hosting">Cloud Hosting</a></li>
 	                      	</ul>	                      
 	                      </li>  <!-- solution end here  -->
 

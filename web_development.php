@@ -23,7 +23,7 @@ include "inc/header.php";
 	</div>
 </section>
 <br>
-<section>
+<section id="nav_web_designing">
 	<div class="container">
 		<div class="row">
 			<h1 class="inner-heading">Web Designing</h1>
@@ -62,7 +62,7 @@ include "inc/header.php";
 </section>
 <br>
 
-<section class="bg_ef">
+<section class="bg_ef" id="nav_web_application">
 	<br/>
 	<div class="container">
 		<div class="row">
@@ -90,7 +90,7 @@ include "inc/header.php";
 	<br/>
 </section>
 
-<section class="">
+<section class="" id="nav_api_services">
 	<br/>
 	<div class="container">
 		<div class="row">
@@ -113,24 +113,6 @@ include "inc/header.php";
 </section>	
 
 <br/> <br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <?php
 include "inc/footer.php";

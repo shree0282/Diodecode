@@ -5,20 +5,14 @@ include "inc/header.php";
 <div class="container-fluid" style="margin-top: -20px">
    <div class="row" >    
    		<div style="margin: auto; text-align: center; background: #4EC5BF;  padding: 100px; display: block;" >
-   			<h1 class="heading" style="color: white;  ">Professional Services</h1>
+   			<h1 class="heading" style="color: white;  ">DiodeCode Professional Services</h1>
    		</div>      
    </div>
 </div>
 
 <section style="background: white">
-	<div class="container">
-		<div class="row">
-		<br>
-			<h1 class="inner-heading"> DiodeCode Professional Services </h1>
-		</div>
-	</div>
 	<br>
-	<img src="images/banner.png" width="100%">
+	<img src="images/banner1.png" width="100%">
 	<br> <br> <br>
 
 	<div class="container">
@@ -29,13 +23,13 @@ include "inc/header.php";
 			<div class="col-md-4" id="nav_managed_it_service">
 				
 				<div class="col-md-12"> 
-					<img  src="images/web-opt.png" />	
-					<h3 class="lato-serif"> Managed It Services </h3>
+					<img  src="images/managed-IT.png" />	
+					<h3 class="lato-serif"> Managed IT Services </h3>
 					<br> 	
 					<p class="inner-para">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,						
+						We emphasize the proactive approach to take the surprises out of IT. While you cannot mitigate everything from disrupting your technology, you can minimize potential issues by staying on top of your system and software maintenance needs.
 					</p>
+
 				</div>
 			</div>
 			<div class="col-md-4" id="nav_cloud_server">
@@ -45,8 +39,7 @@ include "inc/header.php";
 					<h3 class="lato-serif"> Cloud Server Support. </h3>
 					<br> 
 					<p class="inner-para">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						Transferring your technology to the cloud simply means that the physical aspects of your IT - along with their management and maintenance - are delivered via the Internet on a pay-as-you-go pricing structure.
 						
 					</p>
 				</div>
@@ -54,12 +47,11 @@ include "inc/header.php";
 			<div class="col-md-4" id="nav_ondemand_service">
 				
 				<div class="col-md-12"> 
-					<img src="images/ondemand.png"/>
-					<h3 class="lato-serif"> On Demand It Services </h3> 
+					<img src="images/ondemand1.png"/>
+					<h3 class="lato-serif"> On Demand IT Services </h3> 
 					<br>
 					<p class="inner-para">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,						
+						Diodecode' on demand IT services provide you with reliable, high-quality technology services. We Offered diversity of IT services to fit the need of our clients.					
 					</p>
 				</div>
 			</div>
