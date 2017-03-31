@@ -28,7 +28,7 @@ include "inc/header.php";
 						<br>
 					
 					<p class="inner-para">
-						Shared Web Hosting is a fantastic way to get started in the Web Hosting industry. Our shared hosting services sets a platform to allow the web hosting providers to accommodate multiple web hosting services to be shared from a server one server. It also helps in reducing redundancy to website design and hosting and makes access a lot simpler. This service is available for both new and existing customers and provides a way for either end users to get their websites online or for existing web designers to put their customer websites online with relative ease. As a result, this establishes efficient web hosting services with minimal effort and that too at an affordable price.
+						Shared Web Hosting is a fantastic way to get started in the Web Hosting industry. Our shared hosting services set a platform to allow the web hosting providers to accommodate multiple web hosting services to be shared from one server. It also helps in reducing redundancy to website design and hosting, Makes access a lot simpler. This service is available for both new and existing customers and it provides a way for end users to get their websites online or existing web designers to put their customer websites online with relative ease. As a result, this establishes efficient web hosting services with minimal effort and that too at an affordable price.
 					</p>
 				</div>
 			</div>
@@ -40,7 +40,7 @@ include "inc/header.php";
 						<br>
 					
 					<p class="inner-para">						
-						Cloud hosting services provide hosting for websites on virtual servers which pull their computing resource from extensive underlying networks of physical web servers. It follows the utility model of computing in that it is available as a service rather than a product and is therefore comparable with traditional utilities such as electricity and gas. Broadly speaking the client can tap into their service as much as they need, depending on the demands of their website, and they will only pay for what they use.
+						Cloud hosting services provide hosting for websites on virtual servers which pull their computing resource from extensive underlying networks of physical web servers. It follows the utility model of computing in that it's available as a service rather than a product. Therefore it's comparable with traditional utilities such as electricity and gas. Broadly speaking  client can tap into their service as much as they need, depending on the demands of their website and they will only pay for what they use
 					</p>
 				</div>
 			</div>

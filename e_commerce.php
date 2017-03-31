@@ -19,7 +19,7 @@ include "inc/header.php";
 	</div>
 	<br>
 	<div class="text-center">
-	<img src="images/ecommerce-banner.png"  style="margin:auto; ">
+		<img src="images/ecommerce-banner.png"  style="margin:auto; ">
 	</div>
 
 	<div class="container">
@@ -33,7 +33,7 @@ include "inc/header.php";
 				<img class="center" src="images/magento.png">
 				<h3 class="lato-serif">MAGENTO</h3>
 				<p class="inner-para">
-					Magento is a fully-integrated online shop featuring flexible product display options, mobile templates, multiple transaction options, multi-stores and multi-sites functionality, advanced user accounts and loyalty programs, product categorisation and shopper filtering, configurable discount and promotion rules, plus many more functionalities.
+					Magento is a fully-integrated online shop featuring flexible product display, mobile templates, multiple transaction, multi-stores and multi-sites functionality, advanced user accounts and loyalty programs, product categorization and shopper filtering, configurable discount and promotion rules, plus much more functionalities.
 				</p>
 			</div>
 		</div>
@@ -45,7 +45,6 @@ include "inc/header.php";
 				<p class="inner-para">
 					<b>WooCommerce</b> is an open source e-commerce plugin for WordPress. It is designed for small to large-sized online merchants using WordPress. <br>
 					The plugin quickly became popular for its simplicity to install and customize and free base product.<br>
-					It is used by a number of high-traffic websites, 
 				</p>
 			</div>
 		</div>
@@ -55,7 +54,7 @@ include "inc/header.php";
 				<img class="center" src="images/custommade.png">
 				<h3 class="lato-serif">CUSTOM MADE</h3>
 				<p class="inner-para">
-					We've worked on E-Commerce projects. Utilizing responsive web design, our E-Commerce websites are optimized for desktop, mobile and tablet shopping. we make online shopping easy for customers and easy to manage for website owners. Develop the custom eCommerce website solution that's perfect for your business. We build your IT solution around your specific business requirements.
+					We've worked on E-Commerce projects. Utilizing responsive web design, our E-Commerce websites are optimized for desktop, mobile and tablet shopping. We make online shopping easy for customers and easy to manage for website owners. Develop the custom E-Commerce website solution that is perfect for your business. We build your IT solution around your specific business requirements.
 				</p>
 			</div>
 		</div>

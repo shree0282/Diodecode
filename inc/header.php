@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Khand|Lato|Open+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
 
 	<title>Diodecode</title>
 
@@ -33,7 +35,7 @@
 	                  <span class="icon-bar"></span>
 	                  <span class="icon-bar"></span>
                 </button>
-                 <a href="#"> 
+                 <a href="index.php"> 
                     <img src="images/logo.png" width="220"/>
                     <div class="clear"> </div>
                 </a>
@@ -42,6 +44,45 @@
 			 <div class=" collapse navbar-collapse" id="toggle-menu">
 			 
 				<ul class="nav navbar-nav navbar-right ">
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      DIODECODE' NETWORKS <span class="caret"></span></a>
+
+                      <ul class="dropdown-menu">
+	                      <li class="dropdown-submenu">
+	                     	 <a href="cctv_solution.php">Security Solution</a>
+	                     	 	<ul class="dropdown-menu" >
+	                     	 		<li><a href="cctv_solution.php">CCTV Solution</a></li>
+	                     	 		<li><a href="firewall_solution.php">Firewall Solution</a></li>
+	                      	 	</ul>
+	                      </li>
+
+
+	                      <li class="dropdown-submenu">
+	                     	 <a href="#">Network Solution</a>
+	                     	 	<ul class="dropdown-menu">
+	                     	 		<li><a href="infrastructure_solution.php">Infrastructure Solution</a></li>
+	                     	 		<li><a href="lan_solution.php">LAN Solution</a></li>
+	                     	 		<li><a href="server_management.php">Server Management</a></li>
+	                     	 		<li><a href="vlan_management.php">VLAN Management</a></li>
+	                     	 	</ul>
+	                      </li>
+
+	                      <li class="dropdown-submenu">
+	                     	 <a href="">AMC Project</a>
+	                     	 	<ul class="dropdown-menu">
+	                     	 		<li><a href=""></a></li>
+	                     	 	</ul>
+	                      </li>
+
+                      </ul>
+
+					</li> <!-- Diodecode network end here -->
+
+
+
+
 					<li><a href="index.php">HOME</a></li>
 
 					<li class="dropdown">
@@ -94,7 +135,7 @@
 	                      </li>
 
                       </ul>
-					</li> <!-- Services end here
+					</li> <!-- Services end here -->
 								
 
 		<!-- Solution Menu start here -->
@@ -136,6 +177,6 @@
 				</ul>
 			</div>
 		</div>
-		</nav>
+	</nav>
 		
 	<!-- nav tag close in index.php after carousel -->

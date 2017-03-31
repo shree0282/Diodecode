@@ -55,7 +55,8 @@ footer {
   border: none !important; }
 
 .nav li a {
-  color: #282b30 !important; }
+  color: #282b30 !important;
+  font-size: 13px; }
 
 .nav li a:hover {
   color: white !important;
@@ -72,7 +73,7 @@ footer {
   top: 0 !important;
   left: 100% !important;
   margin-top: 3px;
-  min-width: 308px; }
+  min-width: 17em; }
 
 .dropdown-submenu:hover > .dropdown-menu {
   display: block; }
@@ -254,3 +255,12 @@ p {
 .sonic-para {
   text-align: center;
   margin-top: 20px; }
+
+.infra {
+  list-style: square;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  padding-top: 20px; }

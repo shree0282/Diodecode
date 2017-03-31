@@ -23,7 +23,7 @@ include "inc/header.php";
 			<div class="col-md-4" id="nav_managed_it_service">
 				
 				<div class="col-md-12"> 
-					<img  src="images/managed-IT.png" />	
+					<img class="center" src="images/managed-IT.png" />	
 					<h3 class="lato-serif"> Managed IT Services </h3>
 					<br> 	
 					<p class="inner-para">
@@ -35,7 +35,7 @@ include "inc/header.php";
 			<div class="col-md-4" id="nav_cloud_server">
 				
 				<div class="col-md-12"> 
-					<img src="images/cloud.png"/>
+					<img class="center" src="images/cloud.png"/>
 					<h3 class="lato-serif"> Cloud Server Support. </h3>
 					<br> 
 					<p class="inner-para">
@@ -47,11 +47,11 @@ include "inc/header.php";
 			<div class="col-md-4" id="nav_ondemand_service">
 				
 				<div class="col-md-12"> 
-					<img src="images/ondemand1.png"/>
+					<img class="center" src="images/ondemand1.png"/>
 					<h3 class="lato-serif"> On Demand IT Services </h3> 
 					<br>
 					<p class="inner-para">
-						Diodecode' on demand IT services provide you with reliable, high-quality technology services. We Offered diversity of IT services to fit the need of our clients.					
+						Diodecode' on demand IT services provide you with reliable, high-quality technology services. We Offered a diversity of IT services to fit the need of our clients.					
 					</p>
 				</div>
 			</div>

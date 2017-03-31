@@ -67,7 +67,7 @@
                 </h3>
                     <br/>
                    <p>
-                  	 We are obsessed with beautiful digital experiences, putting the user at the centre of everything we make. Creativity starts with understanding the context of the design challenge and only then one can deliver an exceptional graphical experience.
+                  	 We are obsessed with beautiful digital experiences, putting the user at the center of everything we make. Creativity starts with understanding the context of the design challenge and only then one can deliver an exceptional graphical experience.
                    </p>
 			</div>
 		
@@ -116,7 +116,7 @@
                 </h3>
                     <br/>
                    <p>
-                  	 We are obsessed with beautiful digital experiences, putting the user at the centre of everything we make. Creativity starts with understanding the context of the design challenge and only then one can deliver an exceptional graphical experience.
+                  	 We are obsessed with beautiful digital experiences, putting the user at the center of everything we make. Creativity starts with understanding the context of the design challenge and only then one can deliver an exceptional graphical experience.
                    </p>
 			</div>
 		

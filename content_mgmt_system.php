@@ -27,7 +27,7 @@ include "inc/header.php";
 						<br>
 					
 					<p class="inner-para">
-						We offer complete WordPress web development and design. From a simple brochure website to an advanced e-Commerce solution with an integrated forum or membership website, we can create the ultimate solution to meet your marketing goals and objectives. All of our custom website builds follow a structured development process which helps us execute your project on-time and on-budget.
+						We offer complete WordPress web development and design. From a simple brochure website to an advanced e-Commerce solution with an integrated forum or membership website, we can create the ultimate solution to meet your marketing goals and objectives. All of our custom website builds follow a structured development process which helps us execute your project on time and on-budget.
 					</p>
 				</div>
 			</div>

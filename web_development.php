@@ -45,7 +45,7 @@ include "inc/header.php";
 				<div class="col-md-10"> 
 					<h3 class="lato-serif">  Insanely Great Design. </h3> 
 					<br>
-					<p class="inner-para">Design is more than the way something looks. It’s how it feels when you see it and use it, how easy it is to read something, and the results it drives.</p>
+					<p class="inner-para">The design is more than the way something looks. It’s how it feels when you see it and use it, how easy it is to read something, and the results it drives.</p>
 				</div>
 			</div>
 			<div class="col-md-4">

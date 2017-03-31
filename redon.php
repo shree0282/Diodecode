@@ -20,7 +20,7 @@
 			<br>
 			<p class="redon-para">
 				No More Wait. Play It While You Download <br>
-				Don't Wait Till it finish. Play It. While you Download <br>
+				Don't Wait Till it finishes. Play It. While you Download <br>
 				Give You a whole new Experience And Save you download and Watch Time
 			</p>
 		</div>
@@ -54,7 +54,7 @@
 
 			<h2 class="heading3" style="font-size: 20px">PAUSE/ RESUME DOWNLOADS</h2>
 
-			<p class="redon-para">You Can Resume Uncompleted Downloads From The Place You Stopped. It Has Capability To Restart Broken Or Interrupted Downloads Due To Lost Or Dropped Connections.</p>
+			<p class="redon-para">You Can Resume Uncompleted Downloads From The Place You Stopped. It has the Capability To Restart Broken Or Interrupted Downloads Due To Lost Or Dropped Connections.</p>
 			<p class="underline"></p>
 
 			<div class="text-center">

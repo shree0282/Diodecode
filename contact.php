@@ -44,9 +44,11 @@ include "inc/header.php";
 
                         <label for="Message">Your Message:</label>
                         <textarea class="form-control" placeholder="Your Message Here"></textarea>
+
+                        <button class="btn btn-primary" style="margin-bottom: 10px; margin-left: 15px;">Submit</button>	
                     </div>
                 </form>
-                <button class="btn btn-primary" style="margin-bottom: 10px; margin-left: 15px;">Submit</button>			
+                		
 			</div>
 		</div>		
 		<br/>
