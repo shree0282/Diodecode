@@ -20,9 +20,15 @@ include "inc/header.php";
 	<br><br>
 
 		<p class="inner-para">
-			Web server delivers the web pages. Every web server has an IP address and a domain name.<br>
-			A computer can be act as a web server by installing and configuring the server software and connecting the computer to the Internet. Normally, web server computers have to be turn on (online) for almost all the day.
-		</p>	
+			A <b>virtual LAN (VLAN)</b> is any broadcast domain that is partitioned and isolated in a computer network at the data link layer (OSI layer 2). LAN is an abbreviation for local area network.
+		</p>
+		<p class="inner-para">
+			To subdivide a network into virtual LANs, one configures network equipment. Simpler equipment can partition only per physical port (if at all), in which case each VLAN is connected with a dedicated network cable. More sophisticated devices can mark frames through VLAN tagging, so that a single interconnect (trunk) may be used to transport data for multiple VLANs. Since VLANs share bandwidth, a VLAN trunk can use link aggregation, quality-of-service prioritization, or both to route data efficiently.
+		</p>
+
+		<p class="inner-para">
+			VLANs allow <strong>network administrators</strong> to group hosts together even if the hosts are not on the same network switch. This can greatly simplify network design and deployment, because VLAN membership can be configured through software. Without VLANs, grouping hosts according to their resource needs necessitates the labor of relocating nodes or rewiring data links.
+		</p>
 
 	</div>
 </section>

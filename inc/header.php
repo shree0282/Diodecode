@@ -45,9 +45,11 @@
 			 
 				<ul class="nav navbar-nav navbar-right ">
 
+					<li><a href="index.php">HOME</a></li>
+
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                      DIODECODE' NETWORKS <span class="caret"></span></a>
+                      NETWORK SOLUTIONS <span class="caret"></span></a>
 
                       <ul class="dropdown-menu">
 	                      <li class="dropdown-submenu">
@@ -70,20 +72,15 @@
 	                      </li>
 
 	                      <li class="dropdown-submenu">
-	                     	 <a href="">AMC Project</a>
+	                     	 <a href="#">AMC Project</a>
 	                     	 	<ul class="dropdown-menu">
-	                     	 		<li><a href=""></a></li>
+	                     	 		<!-- <li><a href=""></a></li> -->
 	                     	 	</ul>
 	                      </li>
 
                       </ul>
 
 					</li> <!-- Diodecode network end here -->
-
-
-
-
-					<li><a href="index.php">HOME</a></li>
 
 					<li class="dropdown">
 						<a href="products.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -171,7 +168,7 @@
 
 	                      </ul>                     
                       
-                    <li><a href="portfolio.php"> PORTFOLIO </a></li>
+                    <li><a href="portfolio.php">OUR WORKS</a></li>
                   	<li><a href="contact.php"> CONTACT US </a></li>
 					</li>
 				</ul>
